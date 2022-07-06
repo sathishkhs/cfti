@@ -1,0 +1,6 @@
+User-agent: *
+Disallow: 
+Disallow: /app_login/
+Disallow: /cgi_bin/
+Sitemap: https://www.cftiindia.com/sitemap.xml
+

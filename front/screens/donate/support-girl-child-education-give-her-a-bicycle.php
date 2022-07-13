@@ -416,8 +416,8 @@
                 </div>
                 <small>References</small>
                 <small><ul>
-                <li><sup >1</sup> TOI</li>
-                <li><sup >2</sup> Village survey in 5 states by Gaon Connection</li>
+                <li><sup >1</sup><a target="_blank" href="https://en.gaonconnection.com/girls-in-villages-in-india-discontinue-their-education-because-of-poor-transportation-facilities/"> TOI</a></li>
+                <li><sup >2</sup> <a target="_blank" href="https://timesofindia.indiatimes.com/city/ahmedabad/57-of-girl-students-drop-out-of-schools-by-class-xi-report/articleshow/66900622.cms#:~:text=Over%2030%25%20of%20girl%20students,statistics%20and%20programme%20implementation%20recently.">Village survey in 5 states by Gaon Connection</a></li>
 
                 </ul></small>
             

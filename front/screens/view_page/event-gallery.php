@@ -83,7 +83,7 @@
 
 				<div class="col-lg-4 col-md-6">
 				<div class="intro-item">
-					<a href="chaul-bicycle-event" ><img src="uploads/event-gallery/chaul-bicycle-event (2).jpeg" alt="" class="img-fluid w-100"></a>
+					<a href="chaul-bicycle-event" ><img src="uploads/event-gallery/chaul-bicycle-event (3).jpeg" alt="" class="img-fluid w-100"></a>
 					<a href="chaul-bicycle-event" ><h4 class="mt-4 mb-3">Chaul Bicycle Event</h4></a>
 					
 					<a href="chaul-bicycle-event" >View More</a>

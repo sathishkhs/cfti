@@ -80,6 +80,7 @@ $route['grocery-distribution-dharvi'] = 'view_page/index/grocery-distribution-dh
 $route['bicycle-distribution'] = 'view_page/index/bicycle-distribution';
 $route['bicycle-distribution-for-girls-in-villages-of-raigad-district'] = 'view_page/index/bicycle-distribution-for-girls-in-villages-of-raigad-district';
 $route['bicycle-distribution-in-association-with-soi-foundation'] = 'view_page/index/bicycle-distribution-in-association-with-soi-foundation';
+$route['chaul-bicycle-event'] = 'view_page/index/chaul-bicycle-event';
 $route['media'] = 'view_page/index/media';
 $route['our-programs'] = 'view_page/index/our-programs';
 $route['success-stories'] = 'view_page/index/success-stories';

@@ -1,4 +1,4 @@
-<style>
+<!-- <style>
 
 	.slider, 
 .slider a > div {
@@ -211,19 +211,37 @@
 
 
 <div class="slider" id="slider1">
-    <!-- Slides -->
-    <!--<a href="donate-to-assam-flood-relief"><div style="background-image:url(assets/img/headers/website-banner2.jpg); background-position:left"></div></a>-->
+   
     <a href="donate"><div style="background-image:url(assets/img/headers/hoem-header.jpeg); background-position:right"></div></a>
    
-    <!-- The Arrows -->
+   
     <i class="left" class="arrows" style="z-index:2; position:absolute;"><svg viewBox="0 0 100 100">
             <path d="M 10,50 L 60,100 L 70,90 L 30,50  L 70,10 L 60,0 Z"></path>
         </svg></i>
     <i class="right" class="arrows" style="z-index:2; position:absolute;"><svg viewBox="0 0 100 100">
             <path d="M 10,50 L 60,100 L 70,90 L 30,50  L 70,10 L 60,0 Z" transform="translate(100, 100) rotate(180) "></path>
         </svg></i>
-    <!-- Title Bar -->
-    <!-- <span class="titleBar">
-        <h1>This Slider has all default settings.</h1>
-    </span> -->
+
+
+</div> -->
+
+
+<div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+  <ol class="carousel-indicators">
+    <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+
+  </ol>
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="assets/img/headers/hoem-header.jpeg" class="d-block w-100" alt="...">
+    </div>
+  </div>
+  <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="sr-only">Previous</span>
+  </a>
+  <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="sr-only">Next</span>
+  </a>
 </div>

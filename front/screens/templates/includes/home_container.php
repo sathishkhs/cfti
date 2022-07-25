@@ -2,7 +2,7 @@
 <!-- Section Intro Start -->
 
 <section class="section intro">
-	<div class="container" style="text-align: justify">
+	<div class="container" style="text-align: center">
 		<div class="row align-items-center">
 			<div class="col-lg-6">
 				<div class="section-title">

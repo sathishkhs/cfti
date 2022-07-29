@@ -2,7 +2,9 @@
     body {
         background: #fff;
     }
-
+    /* h1, h2, h3, h4, h5, h6{
+        color: #FF6B6B;
+    } */
     article {
         padding: 20px;
         /* border: 1px solid #aeaeae; */
@@ -26,7 +28,7 @@
 
     .project-tab #tabs .nav-tabs .nav-item.show .nav-link,
     .nav-tabs .nav-link.active {
-        color: red;
+        color: #6BCB77;
         background-color: transparent;
         border-color: transparent transparent #f3f3f3;
         border-bottom: 3px solid !important;
@@ -59,7 +61,7 @@
     }
 
     .nav-tabs .nav-link.active {
-        background-color: red !important;
+        background-color: #6BCB77 !important;
         color: #fff !important;
         border-color: transparent transparent #494949 !important;
         position: relative;
@@ -85,13 +87,13 @@
         margin: 0.3em auto;
         padding: 3px;
         border: 0 none;
-        background: #444;
+        background: #247881;
         border-radius: 14px;
     }
 
     progress::-moz-progress-bar {
-        border-radius: 12px;
-        background: orange;
+        border-radius: 14px;
+        background: #6BCB77;
 
     }
 
@@ -107,12 +109,12 @@
     }
 
     progress::-webkit-progress-value {
-        border-radius: 12px;
-        background: orange;
+        border-radius: 14px;
+        background: #6BCB77;
     }
 
     .goal-raised {
-        color: red;
+        color: #FF6B6B;
         font-size: 30px;
     }
 
@@ -125,9 +127,10 @@
         width: 100%;
         line-height: 50px;
         position: relative;
-        background: red;
+        background: #247881;
         text-align: center;
         margin: 10px auto;
+        border-radius: 8px;
     }
 
     .triangle-class:after,
@@ -139,21 +142,21 @@
         left: 100%;
     }
 
-    .triangle-class:after {
+    /* .triangle-class:after {
         bottom: 0;
-        background: linear-gradient(to right bottom, red 50%, transparent 50%);
+        background: linear-gradient(to right bottom, #247881 50%, transparent 50%);
     }
 
     .triangle-class:before {
         top: 0;
-        background: linear-gradient(to right top, red 50%, transparent 50%);
-    }
+        background: linear-gradient(to right top, #247881 50%, transparent 50%);
+    } */
 
     .border-active .triangle-class {
-        background: #000
+        background: #FF6B6B
     }
 
-    .border-active .triangle-class:after {
+    /* .border-active .triangle-class:after {
         bottom: 0;
         background: linear-gradient(to right bottom, #000 50%, transparent 50%);
     }
@@ -161,7 +164,7 @@
     .border-active .triangle-class:before {
         top: 0;
         background: linear-gradient(to right top, #000 50%, transparent 50%);
-    }
+    } */
 
     #msform {
         width: 400px;
@@ -207,7 +210,7 @@
     /*buttons*/
     #msform .action-button {
         width: 100px;
-        background: #000;
+        background: #247881;
         font-weight: bold;
         color: white;
         border: 0 none;
@@ -219,7 +222,7 @@
 
     #msform .action-button:hover,
     #msform .action-button:focus {
-        box-shadow: 0 0 0 2px white, 0 0 0 3px #000;
+        box-shadow: 0 0 0 2px white, 0 0 0 3px #247881;
     }
 
     /*headings*/
@@ -300,9 +303,11 @@
         }
     }
     a{
-        color: red
+        color: #6BCB77
     }
-    
+    a:hover{
+        color: #6BCB77;
+    }
     a:not([href]):not([tabindex]){
         width: 100%;
     }
@@ -315,9 +320,32 @@
 </style>
 <script src="http://thecodeplayer.com/uploads/js/jquery.easing.min.js" type="text/javascript"></script>
 
- <?php if ($page_items->display_image == 1 && !empty($page_items->display_image) && file_exists((BANNER_IMAGE_PATH . $page_items->banner_image))) { ?>
+ <!-- <?php if ($page_items->display_image == 1 && !empty($page_items->display_image) && file_exists((BANNER_IMAGE_PATH . $page_items->banner_image))) { ?>
                     <figure class="mb-4"><img class="img-fluid rounded" src="<?php echo BANNER_IMAGE_PATH . $page_items->banner_image; ?>" alt="..."></figure>
-                <?php } ?>
+                <?php } ?> -->
+
+                <div class="container-fluid">
+                    <div class="row">
+                        <div class="col-6 p-0">
+                            <img src="assets/images/left-side-banner.jpg" class="img-fluid" alt="left-side-banner">
+                        </div>
+                        <div class="col-6 p-0">
+                        <div id="carouselExampleSlidesOnly" class="carousel slide carousel-fade" data-ride="carousel">
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <img src="assets/images/Right-side-banner-1.jpg" class="d-block w-100" alt="...">
+                            </div>
+                            <div class="carousel-item">
+                            <img src="assets/images/Right-side-banner-2.jpg" class="d-block w-100" alt="...">
+                            </div>
+                            <div class="carousel-item">
+                            <img src="assets/images/Right-side-banner-3.jpg" class="d-block w-100" alt="...">
+                            </div>
+                        </div>
+                        </div>
+                        </div>
+                    </div>
+                </div>
 <div class="container-fluid mt-5 px-4">
     <div class="row">
         <div class="col-lg-8 col-md-12 col-sm-12">
@@ -326,16 +354,12 @@
                 <!-- Post header-->
                 <header class="mb-4">
                     <!-- Post title-->
-                    <h2 class="fw-bolder mb-1" style="color: red"><?php echo $page_items->page_title; ?></h2>
+                    <h2 class="fw-bolder mb-1" style="color: #FF6B6B"><?php echo $page_items->page_title; ?></h2>
                     <!-- Post meta content-->
 
                 </header>
                 <!-- Preview image figure-->
                
-
-              
-
-                
                 <nav>
                     <div class="nav nav-tabs nav-fill" id="nav-tab" role="tablist">
                         <a class="nav-item nav-link active" id="nav-need-tab" data-toggle="tab" href="#nav-need" role="tab" aria-controls="nav-need" aria-selected="true">NEED</a>
@@ -393,7 +417,7 @@
                 </div>
                
             </article>
-            <h4 class="mt-2" style="color: red">Our Supporters </h5>
+            <h4 class="mt-2" style="color: #FF6B6B">Our Supporters </h5>
                     <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/gh/kenwheeler/slick@1.8.1/slick/slick-theme.css" />
                 <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
                 <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
@@ -440,7 +464,7 @@
                             <div class="card-body"> <img class="logo" src="assets/img/photos/home/logos/corporate_8.jpg"> </div>
                         </div>
                     </div>
-                    <h5 style="color: red">
+                    <h5 style="color: #FF6B6B">
                         Join our league of generous supporters. Connect with us for CSR partnership.
                     </h5>
                      <p style="line-height: 15px"><b>Contact person: </b> Amit
@@ -456,7 +480,7 @@
                             $percentage = ($amount_sum->amount / 100000) * 100;
                     ?>
                 <div class="card-body w-100 py-1 px-4">
-                    <span class="goal-raised">&#8377; <?php echo  !empty($amount_sum->amount) ? $amount_sum->amount : '0'; ?></span> raised of &#8377; 1,00,000 goal
+                    <span class="goal-raised">&#8377;<?php echo  !empty($amount_sum->amount) ? $amount_sum->amount : '0'; ?></span> raised of &#8377;1,00,000 goal
                     <div class="input-group">
                         <progress id="progressBar" max="100" value="<?php echo $percentage; ?>" class="text-white"> </progress>
                         <span><?php echo $percentage; ?> %</span>
